@@ -1,0 +1,59 @@
+@font-face {
+    /* название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) */
+    font-family: "NST"; 
+    /* адрес шрифта и тип */
+    src: url("nishiki-teki.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+body
+{
+    background-color: #86BE83;
+    font-family: 'NST', sans-serif;
+}
+
+button
+{
+    font-family: 'NST', sans-serif;
+    background-color: #7adb2b;
+    padding: 10px 20px;
+    border: 1px solid #400000;
+    border-radius: 5px;
+    font-size: 30;
+}
+
+button:hover{
+    background-color: #008a8f;
+}
+
+#rowNumber
+{
+    font-family: 'NST', sans-serif;
+    height: 35px;
+    padding: 10px 20px;
+    border: 1px solid #400000;
+    border-radius: 5px;
+    font-size: 30;
+}
+
+table
+{
+
+    border-collapse: collapse;
+    width: 500px;
+    margin: 10px;
+    border: 1px solid #400000;
+    color: #400000;
+}
+
+tr
+{
+    border: 1px solid #400000;
+}
+
+td
+{
+    border: 1px solid #400000;
+    padding: 5px;
+}
